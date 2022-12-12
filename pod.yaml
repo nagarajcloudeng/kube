@@ -27,5 +27,5 @@ spec:
     spec:
       containers:
         - name: hello
-          image: nagaraj001/pyimage:latest
-        
+          image: nagaraj001/newimage:latest
+          imagePullPolicy: Always 
